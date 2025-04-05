@@ -60,7 +60,8 @@ const Navbar = () => {
 
         {/* Resume Button - Desktop */}
         <a
-          href="#"
+          href="/cv.pdf"
+          target="_blank" rel="noopener noreferrer"
           className="hidden md:inline-block btn btn-outline"
         >
           Resume
@@ -99,9 +100,9 @@ const Navbar = () => {
             ))}
             <li className="pt-6">
               <a
-                href="#"
+                href="/cv.pdf"
+                target="_blank" rel="noopener noreferrer"
                 className="btn btn-outline"
-                onClick={toggleMobileMenu}
               >
                 Resume
               </a>
